@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import NavbarComponent from './components/NavbarComponent'
+import Home from './components/Home'
 
 function App() {
+  // =====================================================
+  // Components are functionals or classes that return UI. 
+  // =====================================================
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* NAVBAR FOR OUR ENTIRE APP */}
+      <NavbarComponent/>
+
+      {/* ALL CONTENT FROM OTHER PAGES WILL GO IN BELOW THIS */}
+      <div className="content">
+        <Home/>
+      </div>
     </div>
   );
 }

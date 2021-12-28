@@ -1,0 +1,15 @@
+.navbar > .container > .wrapper > ul.social_links {
+    /* display: flex; */
+    list-style-type: none !important;
+}
+
+.nav-item > a, a {
+    color: #fff;
+    text-decoration: none;
+    fill: #fff;
+}
+
+svg {
+    color: #fff;
+    fill: #fff;
+}
