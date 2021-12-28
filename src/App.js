@@ -1,7 +1,10 @@
+import { Routes, Route, Link } from "react-router-dom";
+
 import './App.css';
-import NavbarComponent from './components/NavbarComponent'
-import Home from './components/Home'
-import Footer from './components/Footer'
+import NavbarComponent from './components/NavbarComponent';
+import Home from './components/Home';
+import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   // =====================================================
@@ -14,7 +17,10 @@ function App() {
 
       {/* ALL CONTENT FROM OTHER PAGES WILL GO IN BELOW THIS */}
       <div className="content">
-        <Home/>
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Routes>
       </div>
 
       {/* FOOTER OF THE APPLICATION */}
