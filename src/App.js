@@ -1,6 +1,7 @@
 import './App.css';
 import NavbarComponent from './components/NavbarComponent'
 import Home from './components/Home'
+import Footer from './components/Footer'
 
 function App() {
   // =====================================================
@@ -15,6 +16,9 @@ function App() {
       <div className="content">
         <Home/>
       </div>
+
+      {/* FOOTER OF THE APPLICATION */}
+      <Footer/>
     </div>
   );
 }
