@@ -1,12 +1,54 @@
 .Contact_Hero {
     margin: 0;
-    height: 82vh;
+    height: 95vh;
     width: 100%;
     vertical-align: middle;
     line-height: 1.5;
-    background-image: linear-gradient(rgba(51, 20, 0, 0.281), rgba(0, 0, 0, 0.055)), url('../img/adrianna.webp');
+    background-image: linear-gradient(rgba(51, 20, 0, 0.616), rgba(0, 0, 0, 0.425)), url('../img/adrianna.webp');
     background-size: cover;
     background-position-y: center;
+    background-position-x: right;
     background-repeat: no-repeat;
     color: #fff;
+}
+
+.email_box, 
+.call_box {
+    background-color: #212529b6;
+    padding: 25px;
+    border: rgba(222, 184, 135, 0.747) 1px solid;
+    box-shadow: 5px 5px 15px rgba(222, 184, 135, 0.747);
+    border-radius: 8px;
+    margin: 0 5px;
+    transition: all .9s;
+}
+
+
+@media all and (max-width:920px){
+    .email_box, 
+    .call_box {
+        background-color: #2125293f;
+        padding: 10px;
+        border: rgba(222, 184, 135, 0.747) 1px solid;
+        box-shadow: 5px 5px 15px rgba(222, 184, 135, 0.747);
+        border-radius: 8px;
+        margin: 8px  auto;
+        transition: all .9s;
+    }
+    .contact_info {
+        padding-top: 10px;
+    }
+}
+
+@media all and (min-width:920px){
+    .social_profiles{
+        margin-bottom: 50px;
+    }
+}
+
+.email_box:hover, 
+.call_box:hover {
+    transform: translateY(-3px) scale(.999);
+    background-color: rgba(0, 0, 0, 0.096);
+    box-shadow: 5px 5px 1px rgba(222, 184, 135, 0.747);
 }

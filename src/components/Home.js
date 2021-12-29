@@ -5,7 +5,7 @@ import '../css/buttons.css';
 
 const Home = () => {
     return (  
-        <Container fluid className="py-5 Hero">
+        <Container fluid className="py-5 Hero mt-5">
             <div className="Hero_Inner text-center justify-content-center">
                 <h1>
                     Hi, Welcome to my world!

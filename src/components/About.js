@@ -3,7 +3,7 @@ import '../css/about.css';
 
 const About = () => {
     return (  
-        <Container fluid className="py-5 About_Hero"> 
+        <Container fluid className="py-5 About_Hero mt-5"> 
             <div className="About_inner container text-center">
                 <h1>
                     About Me

@@ -1,6 +1,6 @@
 .Hero {
     margin: 0;
-    height: 82vh;
+    height: 95vh;
     vertical-align: middle;
     line-height: 1.5;
     background-image: linear-gradient(rgba(51, 20, 0, 0.281), rgba(0, 0, 0, 0.055)), url('../img/hero.webp');
@@ -17,7 +17,7 @@
 .Hero p {
     font-weight: 400;
     font-size: 1.7em;
-    background-color: #000;
+    background-color: #212529d7;
     max-width: 550px;
     margin: 15px auto;
 }
@@ -26,8 +26,82 @@
     margin-top: 20vh !important;
 }
 
+@media all and (max-width:768x){
+    div.navbar-nav {
+        align-items: flex-end;
+        padding-right: 80px;
+    }
+    ul {
+        width: 40px;
+        margin: 0 38px 0px 0;
+    }
+    .Hero {
+        margin: 0;
+        height: 82vh;
+        vertical-align: middle;
+        line-height: 1.5;
+        background-image: linear-gradient(rgba(51, 20, 0, 0.281), rgba(0, 0, 0, 0.055)), url('../img/hero.webp');
+        background-size: cover;
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
 
-@media all and (max-width:920px){
+    
+    .Hero h1 {
+        font-weight: 600;
+        font-size: 2em;
+    }
+    .Hero p {
+        font-weight: 400;
+        font-size: 1.1em;
+        background-color: #000;
+        max-width: 550px;
+        margin: 15px auto;
+    }
+
+}
+
+@media all and (max-width:560px){
+    div.navbar-nav {
+        align-items: flex-end;
+        padding-right: 80px;
+    }
+    ul {
+        width: 40px;
+        margin: 0 38px 0px 0;
+    }
+    .Hero {
+        margin: 0;
+        height: 82vh;
+        vertical-align: middle;
+        line-height: 1.5;
+        background-image: linear-gradient(rgba(51, 20, 0, 0.281), rgba(0, 0, 0, 0.055)), url('../img/hero.webp');
+        background-size: cover;
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+
+    
+    .Hero h1 {
+        font-weight: 600;
+        font-size: 2em;
+    }
+    .Hero p {
+        font-weight: 400;
+        font-size: 1.1em;
+        background-color: #000;
+        max-width: 550px;
+        margin: 15px auto;
+    }
+
+}
+
+
+@media all and (max-width:414px){
     div.navbar-nav {
         align-items: flex-end;
         padding-right: 48px;
@@ -63,3 +137,4 @@
     }
 
 }
+

@@ -1,5 +1,8 @@
-.navbar > .container > .wrapper > ul.social_links {
-    /* display: flex; */
+.navbar {
+    background-color: #212529;
+}
+.navbar .navbar-nav ul{
+    display: flex;
     list-style-type: none !important;
 }
 
@@ -13,3 +16,42 @@ svg {
     color: #fff;
     fill: #fff;
 }
+
+@media all and (min-width:768px){
+    .navbar-nav .nav-item{
+        width: 200px;
+        margin-left: 125px;
+    }   
+    
+    .navbar .navbar-nav ul{
+        display: flex;
+        width: 200px;
+        margin-left: 170px;
+        list-style-type: none !important;
+    }
+
+}
+
+
+/* @media all and (min-width:560px){
+    .navbar-nav{
+        width: 55%;
+        margin-left: auto;
+    }   
+} */
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        width: 90%;
+    }
+}
+
+@media all and (min-width:560px){
+    .navbar-nav{
+        width: 55%;
+        margin-left: auto;
+    }   
+}
+
+
+

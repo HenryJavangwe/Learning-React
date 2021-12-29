@@ -1,12 +1,12 @@
 .Portfolio_Hero {
-    margin: 0;
-    height: 82vh;
+    height: 95vh;
     width: 100%;
     vertical-align: middle;
     line-height: 1.5;
-    background-image: linear-gradient(rgba(51, 20, 0, 0.281), rgba(0, 0, 0, 0.055)), url('../img/art.webp');
+    background-image: linear-gradient(rgba(51, 20, 0, 0.616), rgba(0, 0, 0, 0.63)), url('../img/art.webp');
     background-size: cover;
     background-position-y: center;
+    background-position-x: center;
     background-repeat: no-repeat;
     color: #fff;
 }
