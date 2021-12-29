@@ -6,14 +6,11 @@ const NavbarComponent = () => {
     return ( 
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container className="justify-content-around text-light">
-                <Navbar.Brand href="#home">亨利 | Henry </Navbar.Brand>
+                <Navbar.Brand href="./">亨利 | Henry </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                 <Navbar.Collapse className="justify-content-around wrapper"  id="basic-navbar-nav " style={{maxWidth: "800px"}}>
-                    <Nav className="justify-content-start" activeKey="/home">
-                        <Nav.Item>
-                            <Nav.Link href="/home">Home</Nav.Link>
-                        </Nav.Item>
+                    <Nav className="justify-content-start">
                         <Nav.Item>
                             <Nav.Link href="./about">About</Nav.Link>
                         </Nav.Item>
@@ -26,10 +23,10 @@ const NavbarComponent = () => {
                     </Nav>
                     <ul className='social_links' style={{listStyleType:"none", display:"flex"}}>
                         <li style={{margin:"5px", paddingTop:"8px"}}>
-                            <a href="./GitHub"> <BsGithub/> </a>
+                            <a target="_blank" href="https://github.com/HenryJavangwe"> <BsGithub/> </a>
                         </li>
                         <li style={{margin:"5px", paddingTop:"8px"}}>
-                            <a href="./GitHub"><BsLinkedin/> </a>
+                            <a target="_blank" href="https://www.linkedin.com/in/henry-javangwe-portfolio/"><BsLinkedin/> </a>
                         </li>
                     </ul>
                 </Navbar.Collapse>

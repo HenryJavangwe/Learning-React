@@ -3,7 +3,7 @@
     height: 82vh;
     vertical-align: middle;
     line-height: 1.5;
-    background-image: linear-gradient(rgba(51, 20, 0, 0.281), rgba(0, 0, 0, 0.699)), url('../img/hero.webp');
+    background-image: linear-gradient(rgba(51, 20, 0, 0.281), rgba(0, 0, 0, 0.055)), url('../img/hero.webp');
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -24,18 +24,4 @@
 
 .Hero_Inner {
     margin-top: 20vh !important;
-}
-
-.About_Btn {
-    margin-top: 10px;
-    padding: 12px 56px;
-    border: 1px solid rgb(177, 87, 31),;
-    border-radius: 25px;
-    color: #fff;
-    background-image: linear-gradient( to top, #000, #976242);
-    transition: 2s;
-}
-
-.About_Btn:hover {
-    background-image: linear-gradient( to top, #976242, #000);
 }

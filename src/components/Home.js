@@ -1,9 +1,11 @@
-import { Container, Row, Col } from "react-bootstrap";
-import '../css/home.css'
+import {Link} from "react-router-dom";
+import { Container } from "react-bootstrap";
+import '../css/home.css';
+import '../css/buttons.css';
 
 const Home = () => {
     return (  
-        <Container fluid className="py-5 bg-warning Hero">
+        <Container fluid className="py-5 Hero">
             <div className="Hero_Inner text-center justify-content-center">
                 <h1>
                     Hi, Welcome to my world!
@@ -12,7 +14,7 @@ const Home = () => {
                     I am a Frontend Developer and Data Analyst
                 </p>
                 <button className="About_Btn">
-                    About Me
+                    <Link to="./about">About me</Link>
                 </button>
             </div>
         </Container>

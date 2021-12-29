@@ -1,0 +1,23 @@
+.About_Btn {
+    margin-top: 10px;
+    padding: 12px 56px;
+    border: 1px solid rgb(177, 87, 31),;
+    border-radius: 25px;
+    color: #fff;
+    background-image: linear-gradient( to top, #000, #976242);
+    transition: 2s;
+}
+
+.About_Btn:hover {
+    background-image: linear-gradient( to top, #976242, #000);
+}
+
+.About_Btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.About_Btn a:hover {
+    text-decoration: none;
+    color: #fff;
+}
