@@ -15,20 +15,20 @@ const NavbarComponent = () => {
                             <Nav.Link href="./about">About</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="link-2">Portfolio</Nav.Link>
+                            <Nav.Link href="./portfolio">Portfolio</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="link-3" > Contact</Nav.Link>
+                            <Nav.Link href="./contact" > Contact</Nav.Link>
                         </Nav.Item>
+                        <ul className='social_links' style={{listStyleType:"none", display:"flex"}}>
+                            <li style={{margin:"5px", paddingTop:"8px"}}>
+                                <a target="_blank" href="https://github.com/HenryJavangwe" rel="noopener noreferrer"> <BsGithub/> </a>
+                            </li>
+                            <li style={{margin:"5px", paddingTop:"8px"}}>
+                                <a target="_blank" href="https://www.linkedin.com/in/henry-javangwe-portfolio/" rel="noopener noreferrer"><BsLinkedin/> </a>
+                            </li>
+                        </ul>
                     </Nav>
-                    <ul className='social_links' style={{listStyleType:"none", display:"flex"}}>
-                        <li style={{margin:"5px", paddingTop:"8px"}}>
-                            <a target="_blank" href="https://github.com/HenryJavangwe"> <BsGithub/> </a>
-                        </li>
-                        <li style={{margin:"5px", paddingTop:"8px"}}>
-                            <a target="_blank" href="https://www.linkedin.com/in/henry-javangwe-portfolio/"><BsLinkedin/> </a>
-                        </li>
-                    </ul>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

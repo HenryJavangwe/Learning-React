@@ -4,6 +4,8 @@ import './App.css';
 import NavbarComponent from './components/NavbarComponent';
 import Home from './components/Home';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
 

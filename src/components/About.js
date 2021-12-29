@@ -28,22 +28,22 @@ const About = () => {
             <div className="text-center container skills">
                     <h2>Skills</h2>
                     <Row>
-                        <Col lg={12}>
+                        <Col sm={6} md={6}  lg={6}>
                             <ProgressBar animated now={80} label={"HTML : 80%"}  />
                         </Col>
-                        <Col lg={12}>
+                        <Col sm={6} md={6}  lg={6}>
                             <ProgressBar animated now={80} label={"CSS : 80%"}  />
                         </Col>
-                        <Col lg={12}>
+                        <Col sm={6} md={6}  lg={6}>
                             <ProgressBar animated now={80} label={"JavaScript : 80%"}  />
                         </Col>
-                        <Col lg={12}>
+                        <Col sm={6} md={6}  lg={6}>
                             <ProgressBar animated now={70} label={"Node.JS : 70%"}  />
                         </Col>
-                        <Col lg={12}>
+                        <Col sm={6} md={6}  lg={6}>
                             <ProgressBar animated now={70} label={"React : 70%"}  />
                         </Col>
-                        <Col lg={12}>
+                        <Col sm={6} md={6}  lg={6}>
                             <ProgressBar animated now={70} label={"PHP : 70%"}  />
                         </Col>
                     </Row>
