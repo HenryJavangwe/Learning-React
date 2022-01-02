@@ -1,0 +1,22 @@
+{
+    "Blogs": [
+        {
+          "title": "About Henry",
+          "body": "I love building websites, playing a piano, and spending time with my loved loves. Particularly my girlfriend ;) ",
+          "author": "Henry J",
+          "id": 1
+        },
+        {
+          "title": "New Year #2022",
+          "body": "Grateful to have made it into this brand new year alive and helathy and with all my loved ones. ",
+          "author": "Henry J",
+          "id": 2
+        },
+        {
+          "title": "Aspirations",
+          "body": "This year is gonna be an amazing year filled with blessings and miracles, love, peace, joy, financial success, good health and growth!",
+          "author": "Unknown",
+          "id": 3
+        }
+      ]
+}
