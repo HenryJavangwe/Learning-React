@@ -1,21 +1,20 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Container } from "react-bootstrap";
 import '../css/blogs.css';
 import BlogList from "./BlogList";
+import useFetch from './useFetch';
+
 
 const Blogs = () => {
-    const [Blogs, setBlogs]= useState([
-        {title:"About Henry", body:"I love building websites, playing a piano, and spending time with my loved loves. Particularly my girlfriend ;) ", author:"Henry J", id: 1},
-        {title:"New Year #2022", body:"Grateful to have made it into this brand new year alive and helathy and with all my loved ones. ", author:"Henry J", id:2},
-        {title:"Aspirations", body:"This year is gonna be an amazing year filled with blessings and miracles, love, peace, joy, financial success, good health and growth!", author:"Unknown", id:3}
-    ])
 
-    const handleDelete = (id ) => {
-        // console.log("Delete btn clicked has id of " + (idx+1));
-        const newBlogs = Blogs.filter((Blog)=> Blog.id !== id);
-        // console.log (idx , Blog.idx)
-        setBlogs(newBlogs);
-    }
+    // const handleDelete = (id ) => {
+    //     // console.log("Delete btn clicked has id of " + (idx+1));
+    //     const newBlogs = Blogs.filter((Blog)=> Blog.id !== id);
+    //     // console.log (idx , Blog.idx)
+    //     setData(newBlogs);
+    // }
+
+    const {data: Blogs, loading, err} = useFetch(' http://localhost:4000/Blogs')
 
     return ( 
         <Container fluid className="Blogs_Hero py-5 mt-5">
@@ -24,7 +23,14 @@ const Blogs = () => {
                     Blogs
                 </h1>
                 <div>
-                    <BlogList Blogs={Blogs}  handleDelete={handleDelete}/>
+                    {err && <div style={{backgroundColor:"rgba(0, 0, 0, 0.696)", }}> Error: <p>{err}</p></div>}
+                </div>
+                <div>
+                    {loading && <div> <h3>Loading...</h3></div>}
+                </div>
+                <div>
+                    {Blogs && <BlogList Blogs={Blogs}  />}
+                    {/* handleDelete={handleDelete} */}
                 </div>
             </div>
         </Container>
