@@ -47,13 +47,6 @@ const About = () => {
                             <ProgressBar animated now={70} label={"PHP : 70%"}  />
                         </Col>
                     </Row>
-                    {/* <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>Bootstrap</p>
-                    <p>Node</p>
-                    <p>React</p>
-                    <p>PHP</p> */}
-
             </div>
         </Container>
     );

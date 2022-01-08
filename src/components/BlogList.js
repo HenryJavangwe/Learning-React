@@ -1,8 +1,9 @@
 
 import { Card,Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import '../css/blogs.css'
 
-const BlogList = ({Blogs, handleDelete}) => {
+const BlogList = ({Blogs}) => {
     return ( 
         <>
             <div className="blog_list pb-5">
@@ -21,7 +22,9 @@ const BlogList = ({Blogs, handleDelete}) => {
                                         <Card.Text >
                                             {Blog.body}
                                         </Card.Text>
-                                        <Button variant="danger" onClick={()=>handleDelete(Blog.id)}>Delete Blog</Button>
+                                        <Button className="ms-1 view_blog" >
+                                            <Link to={`/blogs/${Blog.id}`}>View Blog</Link>
+                                        </Button>
                                     </Card.Body>
                                 </Card>
                             </Col>

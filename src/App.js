@@ -8,6 +8,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Blogs from "./components/Blogs";
+import BlogDetails from "./components/BlogDetails";
+import CreateBlog from "./components/CreateBlog";
 
 function App() {
   // =====================================================
@@ -24,8 +26,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/new-blog" element={<CreateBlog/>} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blogs/:id" element={<BlogDetails/>} />
         </Routes>
       </div>
 

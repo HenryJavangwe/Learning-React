@@ -1,22 +1,22 @@
 {
-    "Blogs": [
-        {
-          "title": "About Henry",
-          "body": "I love building websites, playing a piano, and spending time with my loved loves. Particularly my girlfriend ;) ",
-          "author": "Henry J",
-          "id": 1
-        },
-        {
-          "title": "New Year #2022",
-          "body": "Grateful to have made it into this brand new year alive and helathy and with all my loved ones. ",
-          "author": "Henry J",
-          "id": 2
-        },
-        {
-          "title": "Aspirations",
-          "body": "This year is gonna be an amazing year filled with blessings and miracles, love, peace, joy, financial success, good health and growth!",
-          "author": "Unknown",
-          "id": 3
-        }
-      ]
+  "Blogs": [
+    {
+      "title": "About Henry",
+      "body": "I love building websites, playing a piano, and spending time with my loved loves. Particularly my girlfriend ;) ",
+      "author": "Henry J",
+      "id": 1
+    },
+    {
+      "title": "New Year #2022",
+      "body": "Grateful to have made it into this brand new year alive and helathy and with all my loved ones. ",
+      "author": "Henry J",
+      "id": 2
+    },
+    {
+      "title": "King Henry's Blog",
+      "body": "This is my new blog.\n\nToday is very hot in Cape Town. \n\nTh date is the 8th of JAnuary 2022 and the time is 11:56PM. I am sitting in my lounge with my windows but the air is still. \n\nIt's really hot in here and the heat is making me want to take my mattress and sleep outside but then when I think of the mosquitoes, spiders and/ snakes which are now highly active, I am immediately discourage.\n\nHow tiresome\n\n:(",
+      "author": "Henry Sparks",
+      "id": 19
+    }
+  ]
 }

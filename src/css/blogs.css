@@ -42,7 +42,7 @@
         line-height: 1.5;
         background-image: linear-gradient(rgba(51, 20, 0, 0.616), rgba(0, 0, 0, 0.63)), url('../img/new/drag.webp');
         background-size: cover;
-        background-position-y: calc(100% + 1050px) ;
+        /* background-position-y: calc(100% + 1050px) ; */
         background-position-x: center;
         background-repeat: no-repeat;
         color: #fff;
@@ -60,4 +60,30 @@ h4 {
     font-weight: 200;
     text-decoration: underline;
     margin-bottom: 50px;
+}
+
+button.delete_blog {
+    background: #9a4d3f;
+    border: 1px solid #f1955b;
+}
+
+button.view_blog {
+   background: #f1955b;
+   border: 1px solid #9a4d3f;
+}
+
+.delete_blog a,
+.view_blog a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delete_blog a:hover,
+.view_blog a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Blog_Details {
+    min-height: 80vh;
 }
