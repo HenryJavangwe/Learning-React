@@ -22,9 +22,9 @@ const BlogList = ({Blogs}) => {
                                         <Card.Text >
                                             {Blog.body}
                                         </Card.Text>
-                                        <Button className="ms-1 view_blog" >
+                                        {/* <Button className="ms-1 view_blog" >
                                             <Link to={`/blogs/${i}`}>View Blog</Link>
-                                        </Button>
+                                        </Button> */}
                                     </Card.Body>
                                 </Card>
                             </Col>
