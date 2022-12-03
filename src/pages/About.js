@@ -29,22 +29,34 @@ const About = () => {
                     <h2>Skills</h2>
                     <Row>
                         <Col sm={6} md={6}  lg={6}>
-                            <ProgressBar animated now={80} label={"HTML : 80%"}  />
+                            <ProgressBar animated variant="primary" now={90} label={"HTML : 90%"}  />
                         </Col>
                         <Col sm={6} md={6}  lg={6}>
-                            <ProgressBar animated now={80} label={"CSS : 80%"}  />
+                            <ProgressBar animated variant="primary" now={90} label={"CSS : 90%"}  />
                         </Col>
                         <Col sm={6} md={6}  lg={6}>
-                            <ProgressBar animated now={80} label={"JavaScript : 80%"}  />
+                            <ProgressBar animated variant="primary" now={90} label={"JavaScript : 90%"}  />
                         </Col>
                         <Col sm={6} md={6}  lg={6}>
-                            <ProgressBar animated now={70} label={"Node.JS : 70%"}  />
+                            <ProgressBar animated variant="primary" now={80} label={"Node.js : 80%"}  />
                         </Col>
                         <Col sm={6} md={6}  lg={6}>
-                            <ProgressBar animated now={70} label={"React : 70%"}  />
+                            <ProgressBar animated variant="primary" now={80} label={"React.js : 80%"}  />
                         </Col>
                         <Col sm={6} md={6}  lg={6}>
-                            <ProgressBar animated now={70} label={"PHP : 70%"}  />
+                            <ProgressBar animated variant="primary" now={80} label={"Git : 80%"}  />
+                        </Col>
+                        <Col sm={6} md={6}  lg={6}>
+                            <ProgressBar animated variant="primary" now={80} label={"Next.js : 80%"}  />
+                        </Col>
+                        <Col sm={6} md={6}  lg={6}>
+                            <ProgressBar animated variant="primary" now={70} label={"React Native : 70%"}  />
+                        </Col>
+                        <Col sm={6} md={6}  lg={6}>
+                            <ProgressBar animated variant="warning" now={55} label={"Angular : 60%"}  />
+                        </Col>
+                        <Col sm={6} md={6}  lg={6}>
+                            <ProgressBar animated variant="warning" now={55} label={"PHP : 60%"}  />
                         </Col>
                     </Row>
             </div>

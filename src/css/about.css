@@ -2,7 +2,7 @@
     margin: 0;
     vertical-align: middle;
     line-height: 1.5;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.322)), url('../img/Ichigo.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.946), rgba(0, 0, 0, 0.27)), url('../img/Ichigo.webp');
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
@@ -13,7 +13,7 @@
 .About_Hero .About_inner p {
     max-width: 920px;
     padding: 12px;
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.594);
     box-shadow: 5px 5px 15px rgba(222, 184, 135, 0.747);
     margin: 20px auto;
     transition: all .9s;
