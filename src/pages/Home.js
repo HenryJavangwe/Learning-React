@@ -11,7 +11,7 @@ const Home = () => {
                     Hi, Welcome to my world!
                 </h1>
                 <p>
-                    I am a Frontend Developer and Data Analyst
+                    I am a Frontend Developer, Digital Marketer <br/>and Data Analyst
                 </p>
                 <button className="About_Btn">
                     <Link to="./about">About me</Link>
