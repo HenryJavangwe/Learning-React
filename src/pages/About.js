@@ -9,7 +9,7 @@ const About = () => {
                     About Me
                 </h1>
                 <p>
-                    Before my career, I am dad first to the most beautiful being on earth...my son.
+                    Before my career, I am dad first to the most beautiful being on earth...my beautiful daughter.
                 </p>
                 <p>
                     Some of my greatest joys lie in savouring and capturing warm moments as well as wild and fast paced one. <br />
