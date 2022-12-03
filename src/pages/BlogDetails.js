@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
 import {BsFillArrowLeftCircleFill} from 'react-icons/bs';
-import useFetch from '../components/useFetch';
+import useFetch from '../utils/useFetch';
 import { Button } from 'react-bootstrap';
 
 function BlogDetails() {
