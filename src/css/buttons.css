@@ -8,6 +8,17 @@
     transition: 2s;
 }
 
+.login, .logout {
+    margin-top: 5px;
+    padding: 8px 16px;
+    border: 1px solid rgb(177, 87, 31),;
+    border-radius: 25px;
+    color: #fff;
+    background-image: linear-gradient( to top, #000, #976242);
+    transition: 2s;
+    font-size: .8rem;
+}
+
 .About_Btn:hover {
     background-image: linear-gradient( to top, #976242, #000);
 }

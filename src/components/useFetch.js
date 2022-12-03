@@ -15,15 +15,15 @@ const useFetch = (url) => {
          setTimeout(()=>{
             fetch(url, {signal: abortCont.signal}) //pass the controller as an arguement to associate it with the fetch.
             .then(res => {
-                // console.log(res);
+                console.log(res);
                 if(!res.ok){
                     throw Error('Could not fetch data for that resource');
                 }
                 return res.json();
             })
             .then( data =>{
-                    // console.log(data);
-                    setData(data);
+                    // console.log(Object.values(data));
+                    setData(Object.values(data));
                     setLoading(false);
                     setErr(null);
             })

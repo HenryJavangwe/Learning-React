@@ -6,10 +6,17 @@
     list-style-type: none !important;
 }
 
-.nav-item > a, a {
-    color: #fff;
+.navbar-nav{
+    padding-top: 0.8rem
+}
+.nav-item > a, a, a.profile {
+    color: #ffffffa1;
     text-decoration: none;
     fill: #fff;
+}
+
+a.profile:hover {
+    color: #fff;
 }
 
 svg {

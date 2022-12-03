@@ -2,14 +2,15 @@ import { Routes, Route } from "react-router-dom";
 
 import './App.css';
 import NavbarComponent from './components/NavbarComponent';
-import Home from './components/Home';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import Blogs from "./components/Blogs";
-import BlogDetails from "./components/BlogDetails";
-import CreateBlog from "./components/CreateBlog";
+import Blogs from "./pages/Blogs";
+import BlogDetails from "./pages/BlogDetails";
+import CreateBlog from "./pages/CreateBlog";
+import Profile from "./pages/Profile/Profile";
 
 function App() {
   // =====================================================
@@ -30,6 +31,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blogs/:id" element={<BlogDetails/>} />
+          <Route path="/profile" element={<Profile/>} />
         </Routes>
       </div>
 
