@@ -6,7 +6,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import "../css/blogs.css";
 import BlogList from "./BlogList";
 import AddBlogButton from "./AddBlogButton";
-import useFetch from "../components/useFetch";
+import useFetch from "../utils/useFetch";
 
 const Blogs = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
@@ -16,7 +16,7 @@ const Blogs = () => {
     loading,
     err
   } = useFetch(
-    "https://online-backyard-default-rtdb.firebaseio.com/blog/articles.json"
+    "https://online-backyard-default-rtdb.firebaseio.com/blogs/articles.json"
   );
 
   return (
