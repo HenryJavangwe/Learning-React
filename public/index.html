@@ -7,7 +7,11 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Frontend Software developer Personal Portfolio of Henry Javangwe"
+    />
+    <meta
+      name="keywords"
+      content="Web development, HTML, CSS, JavaScript developer, jQuery, React developer, Angular developer, React Native developer, Front-end developer"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,11 +28,78 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>亨利 | Henry </title>
+    <title>亨利 | Henry</title>
 
     <!-- REACT BOOTSTRAP CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WXFYM3NTHZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-WXFYM3NTHZ");
+    </script>
+
+    <!-- Snowplow Analytics Tracking -->
+    <script type="text/javascript" async="1">
+      (function (p, l, o, w, i, n, g) {
+        if (!p[i]) {
+          p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+          p.GlobalSnowplowNamespace.push(i);
+          p[i] = function () {
+            (p[i].q = p[i].q || []).push(arguments);
+          };
+          p[i].q = p[i].q || [];
+          n = l.createElement(o);
+          g = l.getElementsByTagName(o)[0];
+          n.async = 1;
+          n.src = w;
+          g.parentNode.insertBefore(n, g);
+        }
+      })(
+        window,
+        document,
+        "script",
+        "https://15bcda12-36d5-48ed-b3ec-bc7fd79f8b44.app.try-snowplow.com/v3/try.js",
+        "snowplow"
+      );
+
+      snowplow(
+        "newTracker",
+        "try",
+        "https://15bcda12-36d5-48ed-b3ec-bc7fd79f8b44.app.try-snowplow.com",
+        {
+          appId: "try-snowplow", // you can specify your own app name here
+          platform: "web",
+
+          contexts: {
+            webPage: true, // this sets a unique id for each page view
+            performanceTiming: true, // this captures performance metrics like load times
+          },
+        }
+      );
+
+      // send first heartbeat after 10 seconds, and every 10 seconds thereafter
+      snowplow("enableActivityTracking", {
+        minimumVisitLength: 10,
+        heartbeatDelay: 10,
+      });
+      snowplow("enableLinkClickTracking");
+      snowplow("trackPageView");
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -44,11 +115,19 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <!-- REACT BOOTSTRAP JAVASCRIPT -->
-    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/react/umd/react.production.min.js"
+      crossorigin
+    ></script>
 
-    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
 
-    <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
-
+    <script
+      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+      crossorigin
+    ></script>
   </body>
 </html>
