@@ -26,11 +26,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/new-blog" element={<CreateBlog/>} />
+          {/* <Route path="/blogs" element={<Blogs />} /> */}
+          {/* <Route path="/new-blog" element={<CreateBlog/>} /> */}
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blogs/:id" element={<BlogDetails/>} />
+          {/* <Route path="/blogs/:id" element={<BlogDetails/>} /> */}
           <Route path="/profile" element={<Profile/>} />
         </Routes>
       </div>

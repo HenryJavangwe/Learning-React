@@ -29,11 +29,11 @@ const NavbarComponent = () => {
                 About
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link as={Link} to="./blogs">
                 Blog
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item>
               <Nav.Link as={Link} to="./portfolio">
                 Portfolio
